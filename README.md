@@ -13,4 +13,4 @@ Call potential Corrie domains straight from DiffBind outputs!
 
 ## Algorithm pipeline
 
-![CorrieCaller Algorithm steps](/assets/)
+![CorrieCaller Algorithm steps](/assets/Slide1.PNG "CorrieCaller algorithm")
