@@ -10,3 +10,5 @@ Call potential Corrie domains straight from DiffBind outputs!
 **Requirements:** This script was tested on Python 3.8.10.
 
 **Note:** This script is likely to produce artefacts. Please verify potential Corrie domains through other methods.
+
+## Algorithm pipeline
