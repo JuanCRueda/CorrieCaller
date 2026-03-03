@@ -29,3 +29,12 @@ Call potential Corrie domains straight from DiffBind outputs!
 > 
 > $ pip install -r requirements.txt
 4. CorrieCaller is ready to run!
+
+## Inputs and parameters
+### Generating the DiffBind output file
+
+For information on running [DiffBind](https://bioconductor.org/packages/release/bioc/html/DiffBind.html) please consult its documentation. For best CorrieCaller results, I recommend generating the output without filtering as shown bellow:
+> res=dba.report(dObj,th=1)
+> 
+> write.table(res,paste(out_dir,PATH/TO/OUTPUT_FILE.csv, row.names=FALSE,quote=FALSE,sep='\t')
+
