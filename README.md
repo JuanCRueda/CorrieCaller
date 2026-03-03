@@ -12,3 +12,5 @@ Call potential Corrie domains straight from DiffBind outputs!
 **Note:** This script is likely to produce artefacts. Please verify potential Corrie domains through other methods.
 
 ## Algorithm pipeline
+
+![CorrieCaller Algorithm steps](/assets/)
