@@ -111,3 +111,4 @@ Genomic coordinates of potential Corrie domains and their direction.
 - strand: direction of the Corrie domain. "+" means that the minimum comes first, "-" means that the maximum comes firts.
 - width: width of the Corrie domain.
 
+![Corrie diagram](/assets/CorrieDiagram.png "Corrie diagram")
