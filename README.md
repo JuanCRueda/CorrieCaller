@@ -38,7 +38,7 @@ For information on running [DiffBind](https://bioconductor.org/packages/release/
 > 
 > write.table(res,paste(out_dir,PATH/TO/OUTPUT_FILE.csv, row.names=FALSE,quote=FALSE,sep='\t')
 
-## Parameters
+### Parameters
 - output_dir: Directory to save the results to (string).
 - test: Identifier of the test group (string). This can be found in the DiffBind output file as everything after "Conc_" in one of the column headers.
 - control: Identifier of the test group (string). Generally "wild_type". This can be found in the DiffBind output file as everything after "Conc_" in another of the column headers.
@@ -52,4 +52,16 @@ For information on running [DiffBind](https://bioconductor.org/packages/release/
 ## Running CorrieCaller
 
 1. Edit the CorrieCaller.py file and add your parameters in the block marked with "###" (see below).
+
+![CorrieCaller parameters](/assets/CorrieCaller_parameters.png "CorrieCaller parameters")
+
+2. Activate the Python environment.
+> $ source .CorrieCaller_env/bin/activate
+
+3. Run the script!
+> $ python3 CorrieCaller.py
+
+## Outputs
+### SlidingWindow.tsv
+Bins their asigned values in terms of WT signal and Log2FoldChange in the mutants.
 
