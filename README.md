@@ -112,3 +112,7 @@ Genomic coordinates of potential Corrie domains and their direction.
 - width: width of the Corrie domain.
 
 ![Corrie diagram](/assets/CorrieDiagram.png "Corrie diagram")
+
+*******
+
+![Coire t-sabhail](/assets/IMG_1907.JPEG "Coire t-sabhail")
