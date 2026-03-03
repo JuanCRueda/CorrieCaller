@@ -14,3 +14,15 @@ Call potential Corrie domains straight from DiffBind outputs!
 ## Algorithm pipeline
 
 ![CorrieCaller Algorithm steps](/assets/Slide1.PNG "CorrieCaller algorithm")
+
+## Installation
+
+1. Create a CorrieCaller directory.
+> $ mkdir CorrieCaller
+2. Download "CorrieCaller.py" and "requirements.txt" and save them in the CorrieCaller directory.
+3. Create a Python environment and install the required libraries.
+> $ mkdir ./CorrieCaller_env
+> $ python3 -m venv ./CorrieCaller_env
+> $ source ./CorrieCaller_env/bin/activate
+> $ pip install -r requirements.txt
+4. CorrieCaller is ready to run!
