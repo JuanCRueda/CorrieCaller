@@ -64,4 +64,50 @@ For information on running [DiffBind](https://bioconductor.org/packages/release/
 ## Outputs
 ### SlidingWindow.tsv
 Bins their asigned values in terms of WT signal and Log2FoldChange in the mutants.
+![SlidingWindow](/assets/SlidingWindow.png "SlidingWindow")
+
+**Columns:**
+
+- chr: chromosome.
+- start: start of the sliding window bin.
+- end: end  of the sliding window bin.
+- avg_l2fc: Weighted mean of the log2FoldChange in the mutant.
+- std_l2fc: Weighted standard deviation of the log2FoldChange in the mutant.
+- avg_control: Weighted mean of the WT signal.
+- std_control: Weighted standard of the WT signal.
+
+### enriched_regs.tsv
+Regions identified as H3K9me3-rich in WT.
+<img width="3760" height="217" alt="image" src="https://github.com/user-attachments/assets/9c41222e-6e3b-4cb1-afd8-561c5f3ac3a5" />
+
+**Columns:**
+
+- chr: chromosome.
+- start: start of the H3K9me3-rich region.
+- end: end of the H3K9me3-rich region.
+- width: width of the H3K9me3-rich region.
+
+### predicted_local_maxima_minima.tsv
+Regions predicted as likely to contain H3K9me3 FC local maxima and minima.
+<img width="3762" height="280" alt="image" src="https://github.com/user-attachments/assets/cdc0f9f9-a87e-4a80-8fa3-8045b5e1d03f" />
+
+**Columns:**
+
+- chr: chromosome.
+- start: start of the region.
+- end: end of the region.
+- type: "maximum" or "minimum"
+
+### corries.tsv
+Genomic coordinates of potential Corrie domains and their direction.
+<img width="3752" height="275" alt="image" src="https://github.com/user-attachments/assets/beb76ff7-61b8-4d05-a800-da6772d93c9a" />
+
+**Columns:**
+
+- chr: chromosome.
+- start_extended and end_extended: outer edge of the local minimum/maximum at the Corrie domain borders +/- half a sliding window (See diagram bellow).
+- start/end: midpoint of the local minimum/maximum at the Corrie domain border (See diagram bellow).
+- start_strcit/end_strcit: inner edge of the local minimum/maximum at the Corrie domain borders (See diagram bellow).
+- strand: direction of the Corrie domain. "+" means that the minimum comes first, "-" means that the maximum comes firts.
+- width: width of the Corrie domain.
 
