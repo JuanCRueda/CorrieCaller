@@ -51,4 +51,5 @@ For information on running [DiffBind](https://bioconductor.org/packages/release/
 
 ## Running CorrieCaller
 
-1. 
+1. Edit the CorrieCaller.py file and add your parameters in the block marked with "###" (see below).
+
