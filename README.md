@@ -1,2 +1,3 @@
 # CorrieCaller
-Scripts to call Corrie domains from DiffBind outputs
+Call potential Corrie domains straight from DiffBind outputs
+
